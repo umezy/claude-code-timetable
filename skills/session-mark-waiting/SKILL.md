@@ -1,6 +1,6 @@
 ---
 name: session-mark-waiting
-description: セッション名の頭に「⏸️」を付ける（他の人の答えや時間を待つ件、または後回しにした件を、進行中の物と分ける印）。メッセージが「ウェイト」「wait」の1語だけのときに使う。音声入力で化けた同じ音の1語（ウエート・ウエイト・上と など）も同じに扱う
+description: セッション名の頭に「⏸️」を付ける（他の人の答えや時間を待つ件、または後回しにした件を、進行中の物と分ける印）。メッセージが「ウェイト」「wait」の1語だけのときに使う。音声入力で化けた同じ音の1語（ウエート・ウエイト など）も同じに扱う
 allowed-tools:
   - Bash(python ~/.claude/skills/session-mark-waiting/mark.py *)
   - ToolSearch
