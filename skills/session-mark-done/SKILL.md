@@ -1,6 +1,6 @@
 ---
 name: session-mark-done
-description: セッション名の頭に「✅」を付ける（済んだ印）。メッセージが「ダン」「ドン」「done」の1語だけのときに使う。音声入力で化けた同じ音の1語（団・段・丼・どん・ダーン など）も同じに扱う
+description: 「ダンマーク」（done mark）と打たれたら、セッション名の頭に「✅」を付ける（済んだ印）。メッセージが「ダンマーク」だけのとき、または「ダンマークをつけて」と頼まれたときに使う。「ダン」「ドン」「done」の1語だけのときも使う。音声入力で化けた同じ音の言葉（タンマーク・ダン マーク、1語なら団・段・丼・どん・ダーン など）も同じに扱う
 allowed-tools:
   - Bash(python ~/.claude/skills/session-mark-waiting/mark.py *)
   - ToolSearch
